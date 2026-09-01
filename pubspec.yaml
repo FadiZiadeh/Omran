@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^1.0.8
+  shared_preferences: ^2.5.0
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
 
 dev_dependencies:
   flutter_test:
@@ -22,8 +26,8 @@ flutter:
 
 
   uses-material-design: true
+  generate: true
 
   assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  - assets/images/
 
