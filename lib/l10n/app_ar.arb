@@ -1,0 +1,23 @@
+{
+  "@@locale": "ar",
+
+  "welcome": "مرحباً بك في عمران",
+  "email": "البريد الإلكتروني",
+  "password": "كلمة المرور",
+  "login": "تسجيل الدخول",
+  "forgotPassword": "هل نسيت كلمة المرور؟",
+  "logout": "تسجيل الخروج",
+  "loginSuccessful": "تم تسجيل الدخول بنجاح",
+  "invalidEmailOrPassword": "البريد الإلكتروني أو كلمة المرور غير صحيحة",
+  "emailRequired": "يرجى إدخال البريد الإلكتروني",
+  "invalidEmail": "يرجى إدخال بريد إلكتروني صحيح",
+  "passwordRequired": "يرجى إدخال كلمة المرور",
+  "passwordTooShort": "يجب أن تتكون كلمة المرور من 6 أحرف على الأقل",
+  "welcomeHome": "مرحباً بك في عمران!",
+  "language": "اللغة",
+
+  "lightMode": "الوضع الفاتح",
+  "darkMode": "الوضع الداكن",
+  "confirmLogout": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+  "cancel": "إلغاء"
+}

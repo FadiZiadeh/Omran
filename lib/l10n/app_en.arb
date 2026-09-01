@@ -1,0 +1,23 @@
+{
+  "@@locale": "en",
+
+  "welcome": "Welcome to Omran",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "forgotPassword": "Forgot Password?",
+  "logout": "Logout",
+  "loginSuccessful": "Login successful",
+  "invalidEmailOrPassword": "Invalid email or password",
+  "emailRequired": "Please enter your email",
+  "invalidEmail": "Please enter a valid email address",
+  "passwordRequired": "Please enter your password",
+  "passwordTooShort": "Password must be at least 6 characters",
+  "welcomeHome": "Welcome to Omran!",
+  "language": "Language",
+
+  "lightMode": "Light Mode",
+  "darkMode": "Dark Mode",
+  "confirmLogout": "Are you sure you want to logout?",
+  "cancel": "Cancel"
+}
