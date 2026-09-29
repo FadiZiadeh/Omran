@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:omran/core/services/storage_service.dart';
 import 'package:omran/features/authentication/view/login_view.dart';
-import 'package:omran/features/home/view/home_view.dart';
+import 'package:omran/features/main/view/app_shell_view.dart';
 
 class SplashView extends StatefulWidget {
   const SplashView({super.key});
@@ -30,7 +30,7 @@ class _SplashViewState extends State<SplashView> {
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => const HomeView(),
+          builder: (context) => const AppShellView(),
         ),
       );
     } else {

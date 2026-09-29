@@ -19,5 +19,347 @@
   "lightMode": "Light Mode",
   "darkMode": "Dark Mode",
   "confirmLogout": "Are you sure you want to logout?",
-  "cancel": "Cancel"
+  "cancel": "Cancel",
+
+  "unableToLoadProjects": "Unable to load projects.",
+  "unableToLoadTasks": "Unable to load tasks.",
+
+  "activeProjects": "Active projects",
+  "viewAll": "View all",
+  "noActiveProjects": "No active projects.",
+  "jan": "Jan",
+  "feb": "Feb",
+  "mar": "Mar",
+  "apr": "Apr",
+  "may": "May",
+  "jun": "Jun",
+  "jul": "Jul",
+  "aug": "Aug",
+  "sep": "Sep",
+  "oct": "Oct",
+  "nov": "Nov",
+  "dec": "Dec" ,
+
+  "goodMorning": "Good morning",
+  "user": "User",
+  "sitePulseToday": "Here's the site pulse for today.",
+
+  "portfolioProgress": "Portfolio progress",
+  "activeProjectsCount": "{count} active projects",
+  "@activeProjectsCount": {
+    "description": "Number of active projects displayed on the home portfolio card",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "liveFromFirebase": "Live from Firebase",
+
+  "complete": "complete",
+  "due": "Due",
+  "onTrack": "On track",
+  "atRisk": "At risk",
+  "planning": "Planning",
+
+  "due": "Due",
+
+  "unknownProject": "Unknown project",
+  "today": "Today",
+  "tomorrow": "Tomorrow",
+  "recentActions": "Recent actions",
+  "openTaskBoard": "Open task board",
+  "noRecentActions": "No recent actions.",
+
+  "todaysFocus": "Today's focus",
+  "openActionsDueToday": "{count} open actions are due today.",
+  "@openActionsDueToday": {
+    "description": "Number of open tasks due today",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  } ,
+
+  "projects": "Projects",
+  "noProjectsFound": "No projects found.",
+  "projectsLoadError": "Something went wrong while loading projects.",
+  "addProject": "Add Project" ,
+
+  "projectDetails": "Project Details",
+  "deleteProject": "Delete Project",
+  "deleteProjectConfirmation": "Are you sure you want to delete \"{projectName}\"?",
+  "@deleteProjectConfirmation": {
+    "description": "Confirmation message before deleting a project",
+    "placeholders": {
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "Delete",
+  "failedToDeleteProject": "Failed to delete project: {error}",
+  "@failedToDeleteProject": {
+    "description": "Error message shown when deleting a project fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  } ,
+
+  "addSiteUpdate": "Add Site Update",
+  "update": "Update",
+  "whatHappenedOnSite": "What happened on site?",
+  "updateType": "Update type",
+  "issue": "Issue",
+  "milestone": "Milestone",
+  "followUp": "Follow-up",
+  "postUpdate": "Post Update" ,
+
+  "createProject": "Create Project",
+  "projectName": "Project name",
+  "location": "Location",
+  "dueDate": "Due date",
+  "selectDueDate": "Select due date",
+  "pleaseEnterAllProjectInformation": "Please enter all project information.",
+  "mustBeLoggedInToCreateProject": "You must be logged in to create a project.",
+  "projectCreated": "Project Created",
+  "newProjectCreated": "New project \"{projectName}\" was created.",
+  "@newProjectCreated": {
+    "description": "Notification body shown when a project is created",
+    "placeholders": {
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToCreateProject": "Failed to create project: {error}",
+  "@failedToCreateProject": {
+    "description": "Error message shown when creating a project fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  } ,
+
+  "editProject": "Edit Project",
+  "status": "Status",
+  "ended": "Ended",
+  "progress": "Progress",
+  "saveChanges": "Save Changes",
+  "failedToUpdateProject": "Failed to update project: {error}",
+  "@failedToUpdateProject": {
+    "description": "Error message shown when updating a project fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "projectEndedReadOnly": "This project has ended and is read-only.",
+
+  "filterProjects": "Filter Projects",
+  "clear": "Clear",
+  "notStarted": "Not started",
+  "inProgress": "In progress",
+  "almostComplete": "Almost complete",
+  "completed": "Completed",
+  "overdue": "Overdue",
+  "thisWeek": "This week",
+  "thisMonth": "This month",
+  "applyFilters": "Apply Filters",
+  "all": "All",
+  "overallProgress": "Overall progress",
+  "tasks": "Tasks",
+  "files": "Files",
+  "searchProjects": "Search projects...",
+  "sitePulse": "Site Pulse",
+  "unableToLoadProjectUpdates": "Unable to load project updates.",
+  "addUpdate": "Add Update",
+  "latestProjectActivity": "Latest activity and updates from the project site.",
+  "noSiteUpdatesYet": "No site updates yet.",
+  "open": "Open",
+  "completed": "Completed",
+  "noTasksFound": "No tasks found.",
+  "failedToLoadProjects": "Failed to load projects: {error}",
+  "failedToLoadTasks": "Failed to load tasks: {error}",
+  "failedToUpdateTask": "Failed to update task: {error}",
+  "mustBeLoggedInToUpdateTask": "You must be logged in to update a task.",
+  "taskUpdated": "Task Updated",
+  "taskWasUpdated": "Task \"{taskTitle}\" was updated.",
+  "taskUpdatedSuccessfully": "Task updated successfully.",
+  "taskDeleted": "Task Deleted",
+  "taskWasDeleted": "Task \"{taskTitle}\" was deleted.",
+  "taskDeletedSuccessfully": "Task deleted successfully.",
+  "failedToDeleteTask": "Failed to delete task: {error}",
+  "mustBeLoggedInToCreateTask": "You must be logged in to create a task.",
+  "taskCreated": "Task Created",
+  "newTaskCreated": "New task \"{taskTitle}\" was added to {projectName}.",
+  "taskCreatedSuccessfully": "Task created successfully.",
+  "failedToCreateTask": "Failed to create task: {error}",
+  "todaysTasks": "Today's Tasks",
+  "tasksDueToday": "Tasks that are due today.",
+  "keepTrackOfTasks": "Keep track of what needs to get done.",
+  "projectTasks": "Tasks for this project.",
+  "tasksCannotBeAddedToEndedProject": "Tasks cannot be added to an ended project.",
+  "addTask": "Add Task",
+  "@failedToLoadProjects": {
+    "description": "Error shown when projects fail to load",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToLoadTasks": {
+    "description": "Error shown when tasks fail to load",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToUpdateTask": {
+    "description": "Error shown when updating a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@taskWasUpdated": {
+    "description": "Notification body shown when a task is updated",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@taskWasDeleted": {
+    "description": "Notification body shown when a task is deleted",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToDeleteTask": {
+    "description": "Error shown when deleting a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@newTaskCreated": {
+    "description": "Notification body shown when a task is created",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      },
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToCreateTask": {
+    "description": "Error shown when creating a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  } ,
+"createTask": "Create Task",
+"pleaseEnterAllTaskInformation": "Please enter all task information.",
+"taskTitle": "Task title",
+"project": "Project",
+"priority": "Priority",
+"high": "High",
+"medium": "Medium",
+"low": "Low" ,
+"deleteTask": "Delete Task",
+"deleteTaskConfirmation": "Are you sure you want to delete \"{taskTitle}\"?" ,
+"@deleteTaskConfirmation": {
+  "description": "Confirmation message shown before deleting a task.",
+  "placeholders": {
+    "taskTitle": {
+      "type": "String"
+    }
+  }
+},
+"editTask": "Edit Task",
+"pleaseEnterTaskTitle": "Please enter a task title.",
+"assignedTo": "Assigned To",
+"editTask": "Edit Task",
+"deleteTask": "Delete Task",
+"date": "Date",
+"clearAll": "Clear all",
+"filterTasks": "Filter Tasks",
+"tomorrow": "Tomorrow",
+"searchTasks": "Search tasks",
+"projectTasksReadOnly": "This project has ended. Tasks are read-only.",
+"change": "Change",
+"addingTaskAvailableSoon": "Adding a task will be available soon.",
+"unableToLoadProjectTasks": "Unable to load project tasks.",
+"files": "Files",
+"searchFileNameOrLocation": "Search file name or location",
+"clearAll": "Clear all",
+"allProjectFilesInOnePlace": "All your project files in one place.",
+"noFilesFound": "No files found.",
+"unableToLoadFiles": "Unable to load files.",
+"noActiveProjectsForFiles": "No active projects are available for adding files.",
+"filesCannotBeAddedToEndedProject": "Files cannot be added to an ended project.",
+"addFile": "Add File",
+"projectFiles": "Project Files",
+"allFilesForThisProjectInOnePlace": "All files for this project in one place.",
+"projectFilesReadOnly": "This project has ended. Files are read-only.",
+"searchProjectFiles": "Search project files",
+"fileUploadedSuccessfully": "File uploaded successfully.",
+"unableToUploadFile": "Unable to upload file.",
+"unableToLoadProjectFiles": "Unable to load project files.",
+"saveFile": "Save File",
+"fileName": "File Name",
+"fileNameHint": "e.g. Structural Drawings.pdf",
+"fileType": "File Type",
+"image": "Image",
+"document": "Document",
+"fileSize": "File Size",
+"fileSizeHint": "e.g. 4.2 MB",
+"pleaseCompleteAllFields": "Please complete all fields.",
+"openFile": "Open",
+"download": "Download",
+"opening": "Opening",
+"downloading": "Downloading",
+"deleting": "Deleting",
+"filters": "Filters",
+"reset": "Reset",
+"close": "Close",
+"fileType": "File Type",
+"thisWeek": "This Week",
+"thisMonth": "This Month",
+"profile": "Profile",
+"unableToLoadUserProfile": "Unable to load user profile.",
+"phone": "Phone",
+"about": "About",
+"aboutOmranDescription": "Omran is a project management app designed to help you organize projects, tasks, and files in one place.",
+"version": "Version",
+"date": "Date",
+"contact": "Contact",
+"settings": "Settings",
+"notifications": "Notifications",
+"home": "Home",
+"goodAfternoon": "Good afternoon",
+"goodEvening": "Good evening"
 }
