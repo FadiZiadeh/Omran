@@ -19,5 +19,346 @@
   "lightMode": "الوضع الفاتح",
   "darkMode": "الوضع الداكن",
   "confirmLogout": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
-  "cancel": "إلغاء"
+  "cancel": "إلغاء",
+
+  "unableToLoadProjects": "تعذر تحميل المشاريع.",
+  "unableToLoadTasks": "تعذر تحميل المهام.",
+
+  "activeProjects": "المشاريع النشطة",
+  "viewAll": "عرض الكل",
+  "noActiveProjects": "لا توجد مشاريع نشطة.",
+  "jan": "يناير",
+  "feb": "فبراير",
+  "mar": "مارس",
+  "apr": "أبريل",
+  "may": "مايو",
+  "jun": "يونيو",
+  "jul": "يوليو",
+  "aug": "أغسطس",
+  "sep": "سبتمبر",
+  "oct": "أكتوبر",
+  "nov": "نوفمبر",
+  "dec": "ديسمبر" ,
+
+  "goodMorning": "صباح الخير",
+  "user": "المستخدم",
+  "sitePulseToday": "إليك نبض الموقع لهذا اليوم.",
+
+  "portfolioProgress": "تقدم المشاريع",
+  "activeProjectsCount": "{count} مشاريع نشطة",
+  "@activeProjectsCount": {
+    "description": "عدد المشاريع النشطة المعروضة في بطاقة تقدم المشاريع",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "liveFromFirebase": "مباشر من Firebase",
+
+  "complete": "مكتمل",
+  "due": "مستحق",
+  "onTrack": "في المسار الصحيح",
+  "atRisk": "في خطر",
+  "planning": "قيد التخطيط",
+
+  "unknownProject": "مشروع غير معروف",
+  "today": "اليوم",
+  "tomorrow": "غداً",
+  "recentActions": "الإجراءات الأخيرة",
+  "openTaskBoard": "فتح لوحة المهام",
+  "noRecentActions": "لا توجد إجراءات حديثة.",
+  "todaysFocus": "تركيز اليوم",
+  "openActionsDueToday": "هناك {count} مهام مفتوحة مستحقة اليوم.",
+  "@openActionsDueToday": {
+    "description": "عدد المهام المفتوحة المستحقة اليوم",
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+      }
+    } ,
+
+    "projects": "المشاريع",
+    "noProjectsFound": "لم يتم العثور على مشاريع.",
+    "projectsLoadError": "حدث خطأ أثناء تحميل المشاريع.",
+    "addProject": "إضافة مشروع" ,
+
+  "projectDetails": "تفاصيل المشروع",
+  "deleteProject": "حذف المشروع",
+  "deleteProjectConfirmation": "هل أنت متأكد أنك تريد حذف \"{projectName}\"؟",
+  "@deleteProjectConfirmation": {
+    "description": "رسالة تأكيد قبل حذف المشروع",
+    "placeholders": {
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+  "delete": "حذف",
+  "failedToDeleteProject": "فشل حذف المشروع: {error}",
+  "@failedToDeleteProject": {
+    "description": "رسالة الخطأ التي تظهر عند فشل حذف المشروع",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  } ,
+
+  "addSiteUpdate": "إضافة تحديث للموقع",
+  "update": "تحديث",
+  "whatHappenedOnSite": "ماذا حدث في الموقع؟",
+  "updateType": "نوع التحديث",
+  "issue": "مشكلة",
+  "milestone": "مرحلة رئيسية",
+  "followUp": "متابعة",
+  "postUpdate": "نشر التحديث" ,
+
+  "createProject": "إنشاء مشروع",
+  "projectName": "اسم المشروع",
+  "location": "الموقع",
+  "dueDate": "تاريخ الاستحقاق",
+  "selectDueDate": "اختر تاريخ الاستحقاق",
+  "pleaseEnterAllProjectInformation": "يرجى إدخال جميع معلومات المشروع.",
+  "mustBeLoggedInToCreateProject": "يجب تسجيل الدخول لإنشاء مشروع.",
+  "projectCreated": "تم إنشاء المشروع",
+  "newProjectCreated": "تم إنشاء مشروع جديد باسم \"{projectName}\".",
+  "@newProjectCreated": {
+    "description": "نص الإشعار الذي يظهر عند إنشاء مشروع",
+    "placeholders": {
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+  "failedToCreateProject": "فشل إنشاء المشروع: {error}",
+  "@failedToCreateProject": {
+    "description": "رسالة الخطأ التي تظهر عند فشل إنشاء المشروع",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "editProject": "تعديل المشروع",
+  "status": "الحالة",
+  "ended": "منتهٍ",
+  "progress": "التقدم",
+  "saveChanges": "حفظ التغييرات",
+  "failedToUpdateProject": "فشل تحديث المشروع: {error}",
+  "@failedToUpdateProject": {
+    "description": "رسالة الخطأ التي تظهر عند فشل تحديث المشروع",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "projectEndedReadOnly": "انتهى هذا المشروع وأصبح للقراءة فقط.",
+
+  "filterProjects": "تصفية المشاريع",
+  "clear": "مسح",
+  "notStarted": "لم يبدأ",
+  "inProgress": "قيد التنفيذ",
+  "almostComplete": "شبه مكتمل",
+  "completed": "مكتمل",
+  "overdue": "متأخر",
+  "thisWeek": "هذا الأسبوع",
+  "thisMonth": "هذا الشهر",
+  "applyFilters": "تطبيق التصفية",
+  "all": "الكل",
+  "overallProgress": "التقدم الإجمالي",
+  "tasks": "المهام",
+  "files": "الملفات",
+  "searchProjects": "البحث عن المشاريع...",
+  "sitePulse": "نبض الموقع",
+  "unableToLoadProjectUpdates": "تعذر تحميل تحديثات المشروع.",
+  "addUpdate": "إضافة تحديث",
+  "latestProjectActivity": "أحدث الأنشطة والتحديثات من موقع المشروع.",
+  "noSiteUpdatesYet": "لا توجد تحديثات للموقع بعد.",
+  "open": "مفتوحة",
+  "completed": "مكتملة",
+  "noTasksFound": "لم يتم العثور على مهام.",
+  "failedToLoadProjects": "فشل تحميل المشاريع: {error}",
+  "failedToLoadTasks": "فشل تحميل المهام: {error}",
+  "failedToUpdateTask": "فشل تحديث المهمة: {error}",
+  "mustBeLoggedInToUpdateTask": "يجب تسجيل الدخول لتحديث مهمة.",
+  "taskUpdated": "تم تحديث المهمة",
+  "taskWasUpdated": "تم تحديث المهمة \"{taskTitle}\".",
+  "taskUpdatedSuccessfully": "تم تحديث المهمة بنجاح.",
+  "taskDeleted": "تم حذف المهمة",
+  "taskWasDeleted": "تم حذف المهمة \"{taskTitle}\".",
+  "taskDeletedSuccessfully": "تم حذف المهمة بنجاح.",
+  "failedToDeleteTask": "فشل حذف المهمة: {error}",
+  "mustBeLoggedInToCreateTask": "يجب تسجيل الدخول لإنشاء مهمة.",
+  "taskCreated": "تم إنشاء المهمة",
+  "newTaskCreated": "تمت إضافة المهمة \"{taskTitle}\" إلى {projectName}.",
+  "taskCreatedSuccessfully": "تم إنشاء المهمة بنجاح.",
+  "failedToCreateTask": "فشل إنشاء المهمة: {error}",
+  "todaysTasks": "مهام اليوم",
+  "tasksDueToday": "المهام المستحقة اليوم.",
+  "keepTrackOfTasks": "تابع ما يحتاج إلى إنجازه.",
+  "projectTasks": "مهام هذا المشروع.",
+  "tasksCannotBeAddedToEndedProject": "لا يمكن إضافة مهام إلى مشروع منتهٍ.",
+  "addTask": "إضافة مهمة",
+  "@failedToLoadProjects": {
+    "description": "Error shown when projects fail to load",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToLoadTasks": {
+    "description": "Error shown when tasks fail to load",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToUpdateTask": {
+    "description": "Error shown when updating a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@taskWasUpdated": {
+    "description": "Notification body shown when a task is updated",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@taskWasDeleted": {
+    "description": "Notification body shown when a task is deleted",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToDeleteTask": {
+    "description": "Error shown when deleting a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@newTaskCreated": {
+    "description": "Notification body shown when a task is created",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      },
+      "projectName": {
+        "type": "String"
+      }
+    }
+  },
+
+  "@failedToCreateTask": {
+    "description": "Error shown when creating a task fails",
+    "placeholders": {
+      "error": {
+        "type": "String"
+      }
+    }
+  } ,
+
+  "createTask": "إنشاء مهمة",
+  "pleaseEnterAllTaskInformation": "يرجى إدخال جميع معلومات المهمة.",
+  "taskTitle": "عنوان المهمة",
+  "project": "المشروع",
+  "priority": "الأولوية",
+  "high": "عالية",
+  "medium": "متوسطة",
+  "low": "منخفضة" ,
+  "deleteTask": "حذف المهمة",
+  "deleteTaskConfirmation": "هل أنت متأكد أنك تريد حذف المهمة \"{taskTitle}\"؟",
+  "@deleteTaskConfirmation": {
+    "description": "رسالة تأكيد تظهر قبل حذف مهمة.",
+    "placeholders": {
+      "taskTitle": {
+        "type": "String"
+      }
+    }
+  },
+  "editTask": "تعديل المهمة",
+  "pleaseEnterTaskTitle": "يرجى إدخال عنوان المهمة.",
+  "assignedTo": "مسندة إلى",
+  "editTask": "تعديل المهمة",
+  "deleteTask": "حذف المهمة",
+  "date": "التاريخ",
+  "clearAll": "مسح الكل",
+  "filterTasks": "تصفية المهام",
+  "tomorrow": "غدًا",
+  "searchTasks": "البحث عن المهام",
+  "projectTasksReadOnly": "انتهى هذا المشروع. المهام للقراءة فقط.",
+  "change": "تغيير",
+  "addingTaskAvailableSoon": "ستتوفر إضافة مهمة قريبًا.",
+  "unableToLoadProjectTasks": "تعذر تحميل مهام المشروع.",
+  "files": "الملفات",
+  "searchFileNameOrLocation": "البحث عن اسم الملف أو الموقع",
+  "clearAll": "مسح الكل",
+  "allProjectFilesInOnePlace": "جميع ملفات مشاريعك في مكان واحد.",
+  "noFilesFound": "لم يتم العثور على ملفات.",
+  "unableToLoadFiles": "تعذر تحميل الملفات.",
+  "noActiveProjectsForFiles": "لا توجد مشاريع نشطة متاحة لإضافة الملفات.",
+  "filesCannotBeAddedToEndedProject": "لا يمكن إضافة ملفات إلى مشروع منتهٍ.",
+  "addFile": "إضافة ملف",
+  "projectFiles": "ملفات المشروع",
+  "allFilesForThisProjectInOnePlace": "جميع ملفات هذا المشروع في مكان واحد.",
+  "projectFilesReadOnly": "انتهى هذا المشروع. الملفات للقراءة فقط.",
+  "searchProjectFiles": "البحث في ملفات المشروع",
+  "fileUploadedSuccessfully": "تم رفع الملف بنجاح.",
+  "unableToUploadFile": "تعذر رفع الملف.",
+  "unableToLoadProjectFiles": "تعذر تحميل ملفات المشروع.",
+  "saveFile": "حفظ الملف",
+  "fileName": "اسم الملف",
+  "fileNameHint": "مثال: Structural Drawings.pdf",
+  "fileType": "نوع الملف",
+  "image": "صورة",
+  "document": "مستند",
+  "fileSize": "حجم الملف",
+  "fileSizeHint": "مثال: 4.2 MB",
+  "pleaseCompleteAllFields": "يرجى إكمال جميع الحقول.",
+  "openFile": "فتح",
+  "download": "تنزيل",
+  "opening": "جارٍ الفتح",
+  "downloading": "جارٍ التنزيل",
+  "deleting": "جارٍ الحذف",
+  "filters": "التصفية",
+  "reset": "إعادة تعيين",
+  "close": "إغلاق",
+  "fileType": "نوع الملف",
+  "thisWeek": "هذا الأسبوع",
+  "thisMonth": "هذا الشهر",
+  "profile": "الملف الشخصي",
+  "unableToLoadUserProfile": "تعذر تحميل الملف الشخصي.",
+  "phone": "الهاتف",
+  "about": "حول",
+  "aboutOmranDescription": "عمران هو تطبيق لإدارة المشاريع مصمم لمساعدتك على تنظيم المشاريع والمهام والملفات في مكان واحد.",
+  "version": "الإصدار",
+  "date": "التاريخ",
+  "contact": "التواصل",
+  "settings": "الإعدادات",
+  "notifications": "الإشعارات",
+  "home": "الرئيسية",
+  "goodAfternoon": "مساء الخير",
+  "goodEvening": "مساء الخير"
+
 }

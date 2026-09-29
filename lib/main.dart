@@ -11,9 +11,7 @@ import 'package:omran/core/notifications/notification_service.dart';
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
 
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
 
   final notificationService = NotificationService();
   await notificationService.initialize();
@@ -30,10 +28,7 @@ class OmranApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ListenableBuilder(
-      listenable: Listenable.merge([
-        localeController,
-        themeController,
-      ]),
+      listenable: Listenable.merge([localeController, themeController]),
       builder: (context, child) {
         return MaterialApp(
           debugShowCheckedModeBanner: false,
@@ -45,11 +40,9 @@ class OmranApp extends StatelessWidget {
 
           locale: localeController.locale,
 
-          localizationsDelegates:
-          AppLocalizations.localizationsDelegates,
+          localizationsDelegates: AppLocalizations.localizationsDelegates,
 
-          supportedLocales:
-          AppLocalizations.supportedLocales,
+          supportedLocales: AppLocalizations.supportedLocales,
 
           home: const SplashView(),
         );

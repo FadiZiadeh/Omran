@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:omran/core/utils/validators.dart';
 import 'package:omran/features/authentication/viewmodel/login_viewmodel.dart';
-import 'package:omran/features/home/view/home_view.dart';
+import 'package:omran/features/main/view/app_shell_view.dart';
 import 'package:omran/l10n/app_localizations.dart';
+import 'package:omran/core/notifications/notification_service.dart';
 
 class LoginView extends StatefulWidget {
   const LoginView({super.key});
@@ -14,6 +15,8 @@ class LoginView extends StatefulWidget {
 class _LoginViewState extends State<LoginView> {
   final _formKey = GlobalKey<FormState>();
   final LoginViewModel _viewModel = LoginViewModel();
+  final NotificationService _notificationService =
+  NotificationService();
 
   final _emailController = TextEditingController();
   final _passwordController = TextEditingController();
@@ -42,9 +45,17 @@ class _LoginViewState extends State<LoginView> {
     }
 
     if (success) {
+      await _notificationService.saveTokenForCurrentUser();
+
+      if (!mounted) {
+        return;
+      }
+
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (context) => const HomeView()),
+        MaterialPageRoute(
+          builder: (context) => const AppShellView(),
+        ),
       );
     }
   }
